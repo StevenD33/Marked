@@ -1,31 +1,35 @@
 <?php
 
-// -------------------------------------------- //
-//                     SESSIONS                 //
-// -------------------------------------------- //
+// --------------------------- //
+//       ERRORS DISPLAY        //
+// --------------------------- //
+
+//!\\ A enlever lors du déploiement
+error_reporting(E_ERROR | E_PARSE);
+ini_set('display_errors', true);
 
 
+// --------------------------- //
+//          SESSIONS           //
+// --------------------------- //
 
 ini_set('session.cookie_lifetime', false);
 session_start();
 
 
-// -------------------------------------------------- //
-//                     Errors Display                //
-// ------------------------------------------------ //
-error_reporting(E_ALL);
-init_set('display_errors',true);
-
+// --------------------------- //
+//         CONSTANTS           //
+// --------------------------- //
 
 // Paths
 define("PATH_REQUIRE", substr($_SERVER['SCRIPT_FILENAME'], 0, -9)); // Pour fonctions d'inclusion php
 define("PATH", substr($_SERVER['PHP_SELF'], 0, -9)); // Pour images, fichiers etc (html)
 
 // Website informations
-define("WEBSITE_TITLE", "Marked");
-define("WEBSITE_NAME", "Marked");
-define("WEBSITE_URL", "https://Marked.com");
-define("WEBSITE_DESCRIPTION", "convertisseur markdown to HTML");
+define("WEBSITE_TITLE", "Mon site");
+define("WEBSITE_NAME", "Mon site");
+define("WEBSITE_URL", "https://monsite.com");
+define("WEBSITE_DESCRIPTION", "Description du site");
 define("WEBSITE_KEYWORDS", "");
 define("WEBSITE_LANGUAGE", "");
 define("WEBSITE_AUTHOR", "");
@@ -39,6 +43,8 @@ define("WEBSITE_FACEBOOK_IMAGE", "");
 
 // DataBase informations
 define("DATABASE_HOST", "localhost");
-define("DATABASE_NAME", "test");
-define("DATABASE_USER", "root");
-define("DATABASE_PASSWORD", "root");
+define("DATABASE_NAME", "db_name");
+define("DATABASE_USER", "db_user");
+define("DATABASE_PASSWORD", "db_password");
+
+
