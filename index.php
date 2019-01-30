@@ -7,7 +7,6 @@ if(isset($_GET['page']) AND !empty($_GET['page'])) {
 }
 
 $allPages = scandir('controllers/');
-var_dump($allPages);
 
 if (in_array($page.'_controller.php',$allPages)) {
     //inclusion de la page
