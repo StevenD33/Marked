@@ -12,6 +12,6 @@
 
 <?php include_once 'views/includes/footer.php' ?>
 
-<script src="Assets/Js/app.js"></script>
+<!--script src="Assets/Js/app.js"></script-->
 </body>
 </html>
