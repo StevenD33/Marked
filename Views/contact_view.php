@@ -4,13 +4,12 @@
     <title><?= ucfirst($page) ?> - Mon site !</title>
 </head>
 <body>
-<header>
+<?php include_once 'views/includes/header.php' ?>
 
-</header>
 
 <h1>Contact</h1>
-<footer>
 
-</footer>
+<?php include_once 'views/includes/footer.php' ?>
+
 </body>
 </html>
