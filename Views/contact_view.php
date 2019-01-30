@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <?php include_once 'views/includes/head.php' ?>
+
     <title><?= ucfirst($page) ?> - Mon site !</title>
 </head>
 <body>
