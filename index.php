@@ -17,3 +17,5 @@ if (in_array($page.'_controller.php',$allPages)) {
     //retour d'une erreur
     echo'Erreur 404';
 }
+
+//test 
