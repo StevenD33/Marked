@@ -4,8 +4,17 @@
 //                     SESSIONS                 //
 // -------------------------------------------- //
 
+
+
+ini_set('session.cookie_lifetime', false);
 session_start();
 
+
+// -------------------------------------------------- //
+//                     Errors Display                //
+// ------------------------------------------------ //
+error_reporting(E_ALL);
+init_set('display_errors',true);
 
 
 // Paths
@@ -30,6 +39,6 @@ define("WEBSITE_FACEBOOK_IMAGE", "");
 
 // DataBase informations
 define("DATABASE_HOST", "localhost");
-define("DATABASE_NAME", "db_name");
-define("DATABASE_USER", "db_user");
-define("DATABASE_PASSWORD", "db_password");
+define("DATABASE_NAME", "test");
+define("DATABASE_USER", "root");
+define("DATABASE_PASSWORD", "root");

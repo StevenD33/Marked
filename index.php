@@ -3,6 +3,11 @@
 
 include_once '_config/config.php';
 include_once '_config/db.php';
+include_once '_functions/functions.php';
+
+debug(['Hellow', 'World']);
+exit;
+var_dump($db);
 
 if(isset($_GET['page']) AND !empty($_GET['page'])) {
     $page = strtolower($_GET['page']); // HOME
