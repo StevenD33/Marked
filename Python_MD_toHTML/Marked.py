@@ -24,3 +24,13 @@ def convert(md_input, html_output):
         html_file.write(html)
         html_file.write(finHead)
 
+
+"""
+<?php 
+
+$command = escapeshellcmd('/usr/custom/test.py');
+$output = shell_exec($command);
+echo $output;
+
+?>
+"""
