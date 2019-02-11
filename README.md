@@ -17,6 +17,9 @@ le script python ce trouve dans le dossier Python_MD_toHTML le reste du répo fa
 pour utiliser le script il faut exécuter le MarkedCommand avec --i (dossier ou ce trouve le md) et --o (dossier ou vous voulez mettre le html)
 
 Attention il vous faut par avance installer le package Markdown2 SINON ça ne marchera pas 
+
+	pip install -r requirements.txt
+
 # Le projet sera terminé le 4 avril 2019 
 
 Dias steven for dev web ydays and python project
