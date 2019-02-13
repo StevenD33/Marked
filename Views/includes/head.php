@@ -17,8 +17,10 @@
 <meta property="og:image"             content="<?= WEBSITE_FACEBOOK_IMAGE?>" />
 
 <!-- CSS Styles -->
+<link rel="stylesheet" href="<?= PATH?>assets/styles/css/bootstrap.css"/>
 <link rel="stylesheet" href="<?= PATH?>assets/styles/css/styles.css"/>
 
 
+
 <!-- JS Files -->
-<!--script src="/assets/js/app.js"></script-->
+
