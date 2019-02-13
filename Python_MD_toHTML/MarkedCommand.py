@@ -7,9 +7,9 @@ print(
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument("-i", '--input', help='Inserer le chemin du  .md' type = str)
+parser.add_argument("-i", '--input', help='Inserer le chemin du  .md',type = str)
 parser.add_argument(
-    "-u", '--output', help='Inserer le chemin du  .html' type = str)
+    "-u", '--output', help='Inserer le chemin du  .html',type = str)
 args = parser.parse_args()
 
 print(
