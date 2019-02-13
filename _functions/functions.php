@@ -1,22 +1,20 @@
 <?php
 
 /**
- * Permet de sécuriser une chaine de caracteres
+ * Permet de sécuriser une chaine de caractères
  * @param $string
  * @return string
  */
-function str_secure($string)
-{
+function str_secur($string) {
     return trim(htmlspecialchars($string));
 }
 
 /**
- * permet de faire du debug lisible
+ * Debug plus lisible des différentes variables
  * @param $var
  */
 function debug($var) {
-    echo'<pre>';
+    echo '<pre>';
     var_dump($var);
-    echo'</pre>';
-
+    echo '</pre>';
 }

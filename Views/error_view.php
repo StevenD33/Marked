@@ -11,7 +11,7 @@
 
     <?php include_once 'views/includes/header.php'?>
 
-    <!-- CONTENU -->
+    <h1>Erreur 404 ! Cette page n'existe pas !</h1>
 
     <?php include_once 'views/includes/footer.php'?>
 
