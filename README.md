@@ -20,6 +20,5 @@ Attention il vous faut par avance installer le package Markdown2 SINON ça ne ma
 
 	pip install -r requirements.txt
 
-# Le projet sera terminé le 4 avril 2019 
+# Projet Annulé
 
-Dias steven for dev web ydays and python project
